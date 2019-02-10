@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01a在线程池中使用委
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01b向线程池中放入异步操作", "01b向线程池中放入异步操作\01b向线程池中放入异步操作.csproj", "{6C32A098-BB8A-452B-837F-106853D4C355}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01c线程池取消异步操作", "01c线程池取消异步操作\01c线程池取消异步操作.csproj", "{13B1BBAB-EA9C-423E-B893-2CDF22628C2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{6C32A098-BB8A-452B-837F-106853D4C355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C32A098-BB8A-452B-837F-106853D4C355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C32A098-BB8A-452B-837F-106853D4C355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B1BBAB-EA9C-423E-B893-2CDF22628C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B1BBAB-EA9C-423E-B893-2CDF22628C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B1BBAB-EA9C-423E-B893-2CDF22628C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B1BBAB-EA9C-423E-B893-2CDF22628C2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F3B2CBAB-D856-4279-A299-1A3FA1D276B1} = {9F5CF250-61DC-4EA5-89A6-D6BEEBC8F8AC}
 		{6C32A098-BB8A-452B-837F-106853D4C355} = {9F5CF250-61DC-4EA5-89A6-D6BEEBC8F8AC}
+		{13B1BBAB-EA9C-423E-B893-2CDF22628C2C} = {9F5CF250-61DC-4EA5-89A6-D6BEEBC8F8AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {142DFB5E-3212-46B1-8A58-3FB8AC656C2C}

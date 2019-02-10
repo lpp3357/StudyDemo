@@ -1,0 +1,7 @@
+E:\VsWorkFiles\MyStudyDemo\01c线程池取消异步操作\bin\Debug\01c线程池取消异步操作.exe.config
+E:\VsWorkFiles\MyStudyDemo\01c线程池取消异步操作\bin\Debug\01c线程池取消异步操作.exe
+E:\VsWorkFiles\MyStudyDemo\01c线程池取消异步操作\bin\Debug\01c线程池取消异步操作.pdb
+E:\VsWorkFiles\MyStudyDemo\01c线程池取消异步操作\obj\Debug\01c线程池取消异步操作.csprojAssemblyReference.cache
+E:\VsWorkFiles\MyStudyDemo\01c线程池取消异步操作\obj\Debug\01c线程池取消异步操作.csproj.CoreCompileInputs.cache
+E:\VsWorkFiles\MyStudyDemo\01c线程池取消异步操作\obj\Debug\01c线程池取消异步操作.exe
+E:\VsWorkFiles\MyStudyDemo\01c线程池取消异步操作\obj\Debug\01c线程池取消异步操作.pdb
