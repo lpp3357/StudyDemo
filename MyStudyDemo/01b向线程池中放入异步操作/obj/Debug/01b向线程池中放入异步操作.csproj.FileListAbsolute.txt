@@ -5,3 +5,10 @@ E:\VsWorkFiles\MyStudyDemo\01b向线程池中放入异步操作\obj\Debug\01b向
 E:\VsWorkFiles\MyStudyDemo\01b向线程池中放入异步操作\obj\Debug\01b向线程池中放入异步操作.csproj.CoreCompileInputs.cache
 E:\VsWorkFiles\MyStudyDemo\01b向线程池中放入异步操作\obj\Debug\01b向线程池中放入异步操作.exe
 E:\VsWorkFiles\MyStudyDemo\01b向线程池中放入异步操作\obj\Debug\01b向线程池中放入异步操作.pdb
+F:\WorkerVs2017\StudyDemo\MyStudyDemo\01b向线程池中放入异步操作\bin\Debug\01b向线程池中放入异步操作.exe.config
+F:\WorkerVs2017\StudyDemo\MyStudyDemo\01b向线程池中放入异步操作\bin\Debug\01b向线程池中放入异步操作.exe
+F:\WorkerVs2017\StudyDemo\MyStudyDemo\01b向线程池中放入异步操作\bin\Debug\01b向线程池中放入异步操作.pdb
+F:\WorkerVs2017\StudyDemo\MyStudyDemo\01b向线程池中放入异步操作\obj\Debug\01b向线程池中放入异步操作.csprojAssemblyReference.cache
+F:\WorkerVs2017\StudyDemo\MyStudyDemo\01b向线程池中放入异步操作\obj\Debug\01b向线程池中放入异步操作.csproj.CoreCompileInputs.cache
+F:\WorkerVs2017\StudyDemo\MyStudyDemo\01b向线程池中放入异步操作\obj\Debug\01b向线程池中放入异步操作.exe
+F:\WorkerVs2017\StudyDemo\MyStudyDemo\01b向线程池中放入异步操作\obj\Debug\01b向线程池中放入异步操作.pdb
