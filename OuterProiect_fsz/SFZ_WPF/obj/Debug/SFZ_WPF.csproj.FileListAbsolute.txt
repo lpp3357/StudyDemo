@@ -42,3 +42,4 @@ E:\VsWorkFiles2.0\OuterProiect_fsz\SFZ_WPF\obj\Debug\SFZ_WPF.csproj.GenerateReso
 E:\VsWorkFiles2.0\OuterProiect_fsz\SFZ_WPF\obj\Debug\SFZ_WPF.csproj.CoreCompileInputs.cache
 E:\VsWorkFiles2.0\OuterProiect_fsz\SFZ_WPF\obj\Debug\SFZ_WPF.exe
 E:\VsWorkFiles2.0\OuterProiect_fsz\SFZ_WPF\obj\Debug\SFZ_WPF.pdb
+E:\VsWorkFiles2.0\OuterProiect_fsz\SFZ_WPF\obj\Debug\SFZ_WPF.csprojAssemblyReference.cache

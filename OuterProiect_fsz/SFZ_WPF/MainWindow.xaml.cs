@@ -151,11 +151,6 @@ namespace SFZ_WPF
         }
 
 
-        private void Start_DispatcherTimer()
-        {
-            timer.Start();
-        }
-
         /// <summary>
         /// 定时器触发事件
         /// </summary>
@@ -165,8 +160,7 @@ namespace SFZ_WPF
         {
             if (data.Rows.Count >= 10)
             {
-                data = new DataTable();
-                CreateData();
+                data.Clear();
             }
             DataRow row = data.NewRow();
             Random random = new Random();
@@ -192,7 +186,7 @@ namespace SFZ_WPF
         /// <param name="e"></param>
         private void Q_start_Click(object sender, RoutedEventArgs e)
         {
-            Start_DispatcherTimer();
+            timer.Start();
         }
     }
 }
