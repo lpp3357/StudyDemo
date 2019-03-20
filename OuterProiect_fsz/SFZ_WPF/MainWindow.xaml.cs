@@ -27,6 +27,9 @@ namespace SFZ_WPF
     {
         private DataTable data = new DataTable();
 
+        private DispatcherTimer timer = new DispatcherTimer();
+
+
 
         public MainWindow()
         {
@@ -42,11 +45,15 @@ namespace SFZ_WPF
             data.Columns.Add("username");
             data.Columns.Add("sfzno");
             data.Columns.Add("sfz_datetime");
+
+            timer.Tick += new EventHandler(Event_DispatcherTimer);
+            timer.Interval = TimeSpan.FromSeconds(1.5);
         }
 
 
         public void BindData(string username, string starttime, string endtime)
         {
+            data.Clear();
             for (int i = 0; i < 10; i++)
             {
                 DataRow row = data.NewRow();
@@ -74,11 +81,11 @@ namespace SFZ_WPF
         /// <param name="e"></param>
         private void Q_startbtn_Click(object sender, RoutedEventArgs e)
         {
+            timer.Stop();
             string username = this.q_username.Text;
             string startTime = this.q_starttime.Text;
             string endTime = this.q_endtime.Text;
-            // BindData(username, startTime, endTime);
-            Start_DispatcherTimer();
+            BindData(username, startTime, endTime);
         }
 
         /// <summary>
@@ -130,6 +137,7 @@ namespace SFZ_WPF
                 }
                 sw.WriteLine(sb.ToString());
                 sw.Flush();
+                MessageBox.Show("导出成功");
             }
             catch (Exception ex)
             {
@@ -145,9 +153,6 @@ namespace SFZ_WPF
 
         private void Start_DispatcherTimer()
         {
-            DispatcherTimer timer = new DispatcherTimer();
-            timer.Tick += new EventHandler(Event_DispatcherTimer);
-            timer.Interval = TimeSpan.FromSeconds(1.5);
             timer.Start();
         }
 
@@ -179,6 +184,15 @@ namespace SFZ_WPF
             string[] nameArr = { "小张", "小王", "小李", "二狗", "乌嘴", "小花", "花花", "小美", "小明" };
             if (index > nameArr.Length) index = 0;
             return nameArr[index];
+        }
+        /// <summary>
+        /// 开始识别
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Q_start_Click(object sender, RoutedEventArgs e)
+        {
+            Start_DispatcherTimer();
         }
     }
 }

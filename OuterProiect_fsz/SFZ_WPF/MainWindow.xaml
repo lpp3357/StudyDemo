@@ -14,13 +14,14 @@
                 <DataGridTextColumn Binding="{Binding sfz_datetime}" Header="时间" Width="0.5*"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="59,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="q_username"/>
-        <Label Content="姓名" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="16,6,751,0" VerticalAlignment="Top" Height="24" />
-        <DatePicker HorizontalAlignment="Left" Margin="263,6,0,0" VerticalAlignment="Top" Width="123" Name="q_starttime"/>
-        <Label Content="开始日期" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="203,6,547,0" VerticalAlignment="Top" Height="30" Width="60" />
-        <DatePicker HorizontalAlignment="Left" Margin="466,5,0,0" VerticalAlignment="Top" Width="123" Height="25" Name="q_endtime"/>
-        <Label Content="结束日期" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="406,5,344,0" VerticalAlignment="Top" Height="26" Width="60" />
-        <Button Content="查询" HorizontalAlignment="Left" Margin="617,6,0,0" VerticalAlignment="Top" Width="90" Height="23" Click="Q_startbtn_Click" Name="q_startbtn"/>
-        <Button Content="导出" HorizontalAlignment="Left" Margin="712,6,0,0" VerticalAlignment="Top" Width="88" Height="23" Click="Export_Click" Name="export"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="47,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Name="q_username"/>
+        <Label Content="姓名" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,6,0,0" VerticalAlignment="Top" Height="24" Width="37" />
+        <DatePicker HorizontalAlignment="Left" Margin="215,6,0,0" VerticalAlignment="Top" Width="106" Name="q_starttime"/>
+        <Label Content="开始日期" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="147,6,0,0" VerticalAlignment="Top" Height="24" Width="68" />
+        <DatePicker HorizontalAlignment="Left" Margin="401,5,0,0" VerticalAlignment="Top" Width="102" Height="25" Name="q_endtime"/>
+        <Label Content="结束日期" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="339,5,0,0" VerticalAlignment="Top" Height="26" Width="62" />
+        <Button Content="查询" HorizontalAlignment="Left" Margin="620,6,0,0" VerticalAlignment="Top" Width="72" Height="23" Click="Q_startbtn_Click" Name="q_startbtn"/>
+        <Button Content="导出" HorizontalAlignment="Left" Margin="712,6,0,0" VerticalAlignment="Top" Width="65" Height="23" Click="Export_Click" Name="export"/>
+        <Button Content="开始识别" HorizontalAlignment="Left" Margin="522,7,0,0" VerticalAlignment="Top" Width="72" Height="23" Click="Q_start_Click" x:Name="q_start"/>
     </Grid>
 </Window>
